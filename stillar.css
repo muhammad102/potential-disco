@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Itim&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: rgb(184, 79, 79);
+}
+.container{
+	margin: 0 auto;
+	background: #db901f;
+	height: 580px;
+}
+.container .saytimiz{
+	color:rgb(167, 41, 41);
+	margin-left: 40px;
+	padding-top: 20px;
+	font-family: Inter;
+	font-size: 40px;
+}
+.hr{
+	width: 150px;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-left: 180px;
+	height: 2px;
+	background-color: #fff;
+}
+.header p{
+	color: darkblue;
+	font-family: Inter
+	font-size 12px;
+	margin-top: 10px;
+	font-style: italic;
+}
+.header input{
+	margin-top: 5px;
+	height: 30px;
+	border-radius: 10px;
+	padding-left: 5px;
+	color: lightgrey;
+	border: 1px solid lightgrey;
+}
+.header{
+	width: 500px;
+	margin-left: 700px;
+	height: auto;
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 30px;
+	height: 420px;
+	background-color: rgb(90, 61, 61);
+}
+span{
+	font-weight: bold:
+	color:#000;
+	margin-bottom: 1px;
+}
+.type-people{
+	margin-top: 10px;
+}
+.type-people span{
+	margin-top: 2px;
+}
+.btn{
+	margin-left: 300px;
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: rgb(119, 165, 32);
+	margin-bottom: 20px;
+}
+.btn:hover{
+	background-color: rgb(31, 23, 30);
+}
+a{
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	left: 40px;
+	top: 10px;
+}
